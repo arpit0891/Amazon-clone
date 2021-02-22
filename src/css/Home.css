@@ -1,0 +1,17 @@
+.home{
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner{
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(255, 255, 255,1),rgb(255, 255, 255,0));
+    z-index: -1;
+    margin-bottom: -150px;
+}
+.product-row{
+    display: flex;
+    z-index:1;
+    margin-left: 5px;
+    margin-right: 5px;
+}

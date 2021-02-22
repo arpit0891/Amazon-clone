@@ -1,0 +1,78 @@
+.logo{
+    width:100px;
+    margin-top:18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+.header{
+    background-color: #131921;
+    display : flex;
+    align-items: center;
+    
+}
+nav{
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.search_icon  {
+    padding: 5px;
+    background-color: rgb(197, 138, 29);
+    height: 22px !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search_box{
+    height: 12px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search{
+    display: flex;
+    flex: 1;
+
+}
+
+/* Links in Nav Bar */
+.link{
+    text-decoration: none;
+    color: white;
+    border: white;
+}
+.header_links{
+    display:flex;
+    justify-content: space-evenly;
+}
+.options{
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.span1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.span2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.options_checkout{
+    display: flex;
+    align-items: center;
+}
+.span3{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* Links end here */

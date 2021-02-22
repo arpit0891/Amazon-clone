@@ -1,0 +1,60 @@
+[debug] [2021-02-22T10:57:33.619Z] ----------------------------------------------------------------------
+[debug] [2021-02-22T10:57:33.622Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2021-02-22T10:57:33.622Z] CLI Version:   9.4.0
+[debug] [2021-02-22T10:57:33.623Z] Platform:      linux
+[debug] [2021-02-22T10:57:33.623Z] Node Version:  v15.9.0
+[debug] [2021-02-22T10:57:33.623Z] Time:          Mon Feb 22 2021 16:27:33 GMT+0530 (India Standard Time)
+[debug] [2021-02-22T10:57:33.623Z] ----------------------------------------------------------------------
+[debug] [2021-02-22T10:57:33.624Z] 
+[debug] [2021-02-22T10:57:33.629Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-22T10:57:33.630Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/a/Desktop/Amazon/amazon
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-02-22T10:58:03.439Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-02-22T10:58:04.458Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-02-22T10:58:04.458Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fir-c0166 (Amazon) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-02-22T10:58:36.791Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-02-22T10:58:37.249Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-02-22T10:58:37.250Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.9","browserURL":"https://www.gstatic.com/firebasejs/8.2.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.9/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.9/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.9/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.9/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.9/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.9/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.9/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.memory.js"}}
+[info] ✔  Wrote build/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /home/a/Desktop/Amazon/amazon is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=405322473&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-02-22T10:59:05.069Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"0bdcc962031288621a50","redirect_uri":"http://localhost:9005","state":"405322473"}
+[debug] [2021-02-22T10:59:05.869Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 22 Feb 2021 10:59:05 GMT","content-type":"application/json; charset=utf-8","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"a97be34375af45032a0fa5180c4d66b3\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"1857:470C:9AB6E5:A93E96:60338E79","transfer-encoding":"chunked"}
+[debug] [2021-02-22T10:59:05.873Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-02-22T10:59:06.956Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-02-22T10:59:06.956Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"arpit0891","id":42835173,"node_id":"MDQ6VXNlcjQyODM1MTcz","avatar_url":"https://avatars.githubusercontent.com/u/42835173?v=4","gravatar_id":"","url":"https://api.github.com/users/arpit0891","html_url":"https://github.com/arpit0891","followers_url":"https://api.github.com/users/arpit0891/followers","following_url":"https://api.github.com/users/arpit0891/following{/other_user}","gists_url":"https://api.github.com/users/arpit0891/gists{/gist_id}","starred_url":"https://api.github.com/users/arpit0891/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/arpit0891/subscriptions","organizations_url":"https://api.github.com/users/arpit0891/orgs","repos_url":"https://api.github.com/users/arpit0891/repos","events_url":"https://api.github.com/users/arpit0891/events{/privacy}","received_events_url":"https://api.github.com/users/arpit0891/received_events","type":"User","site_admin":false,"name":"Arpit Mishra","company":null,"blog":"","location":null,"email":null,"hireable":true,"bio":null,"twitter_username":null,"public_repos":43,"public_gists":0,"followers":10,"following":24,"created_at":"2018-08-30T10:22:36Z","updated_at":"2021-02-22T10:59:04Z","private_gists":2,"total_private_repos":1,"owned_private_repos":1,"disk_usage":192149,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as arpit0891 
+[info] 

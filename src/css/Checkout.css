@@ -1,0 +1,16 @@
+.checkout_ad{
+    margin:5px;
+    width: 100%;
+    margin-bottom: 20px;
+    right: 400px;
+}
+.checkout_title{
+    margin-right: 20px;
+    padding: 20px;
+    border-bottom: 2px solid lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(150, 32, 32);
+}
+.checkout_right{
+    margin:5px;
+}
